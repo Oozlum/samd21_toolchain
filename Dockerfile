@@ -18,3 +18,5 @@ ADD CMSIS-Atmel-1.2.0.tgz .
 ENV PATH "/opt/gcc-arm-none-eabi-9-2019-q4-major/bin:$PATH"
 WORKDIR /home/build
 USER build
+
+CMD ["make", "all"]
